@@ -1,0 +1,306 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (16/10/2018)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{}{Shefali Agarwal}{ %\urlstyle{same}\url{http://debarghyadas.com} \\
+\href{mailto:sdagarwa@ncsu.edu}{sdagarwa@ncsu.edu} | 919.345.3557
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{North Carolina}
+\subsection{State University}
+\descript{MS in Computer Science}
+\location{Expected May 2020 | Raleigh, NC \\ GPA: N/A}
+\sectionsep
+
+
+% \descript{BE in Computer Science}
+% \location{Expected May 2014 | Ithaca, NY}
+% Conc. in Software Engineering \\
+% College of Engineering \\
+% Dean's List (All Semesters) \\
+% \location{ Cum. GPA: 3.92 / 4.0 \\
+% Major GPA: 3.94 / 4.0}
+% \sectionsep
+
+\subsection{Mumbai University}
+\descript{BE in Information Technology}
+\location{May 2015 |  Mumbai, India}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LinkedIn://  \href{https://www.linkedin.com/in/shefali-agarwal}{\custombold{shefali-agarwal}} \\
+% Github:// \href{https://github.com/shh25}{\custombold{Shh25}} \\
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+Javascript \textbullet{}   Python \textbullet{} HTML \textbullet{} CSS \\
+\location{Over 1000 lines:}
+Java \textbullet{} C++ \\
+\location{Familiar:}
+Shell \textbullet{} Android \\
+\sectionsep
+\subsection{Database:}
+MongoDB \textbullet{} Firebase \textbullet{} MySQL \\
+PostgreSQL \textbullet{} ElasticSearch \\
+\sectionsep
+\subsection{Frameworks:}
+NodeJS \textbullet{} ExpressJS \textbullet{} Angular 5 \\
+AngularJS \textbullet{} Apache Cordova \textbullet{} Ionic \\
+Syncano \textbullet{} FFMPEG \\
+\sectionsep
+\subsection{Tools:}
+JIRA \textbullet{} GitHub \textbullet{} Oracle VM VirtualBox \\
+\sectionsep
+\subsection{Operating Systems:}
+Linux \textbullet{} MacOS \textbullet{} Android \\
+\sectionsep
+\subsection{Certifications:}
+MongoDB - MongoDB university \\
+UX design - Brainbench \\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Algorithms \\ 
+IoT Analytics \\
+Software Engineering \\
+\sectionsep
+
+\subsection{Undergraduate}
+Data Warehousing, Mining \\
+and Business Intelligence \\ 
+Cloud Computing + Practicum\\
+Operating Systems \\
+Open Source Software Laboratory \\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience (+3 yrs)}
+
+\runsubsection{ Software Engineer }
+\descript{| Mobiuso Technologies }
+\location{ July 2015 – July 2018 | India }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Full stack developer, worked on Server side, client side aspects of software using multiple technologies.
+\item Handled Data for Management, Analysis and presentation, API for web and mobile applications.
+\end{tightemize}
+\sectionsep
+
+\section{Projects}
+
+\runsubsection{ Mericom Solutions }
+\descript{| With client Mericom LLC }
+\begin{tightemize}
+\item mHealth, eHealth platform development using Java, Javascript, full stack, Angular 5, HTML and CSS
+\item Built HIPAA compliant database and APIs.\end{tightemize}
+
+\runsubsection{ iGrenEnergi Web} 
+\descript{| With client IGrenEnergi Inc. }
+\begin{tightemize}
+\item Developed monitoring, analysis reports and dashboard for IoT powered solar panels
+\item Using D3, Java, iText and AngularJS software
+\end{tightemize}
+
+\runsubsection{ 20 Day Stranger }
+\descript{| With clients P\&E and MIT Media Lab }
+\begin{tightemize}
+\item Analysed BaaS systems, used Syncano, created hyperlapse using google map APIs, wrote pairing algorithms
+\end{tightemize}
+
+
+\runsubsection{ DIYDoc Mobile Web Application }
+\descript{| With client P\&E }
+\begin{tightemize}
+\item Created REST APIs and dashboard using CRUD and MEAN 
+(MongoDB, Express, Angular, NodeJS) stack
+\item Video processing using FFMPEG Command Line and Gearman server
+\end{tightemize}
+
+\runsubsection{ Other Projects }
+\descript{ }
+\begin{tightemize}
+\item {\custombold{AVDesign labs web}} - Generated quotes based on prices and services as added on the diagrams created by a professional.
+\item {\custombold{TagPlus (TagHive)}} - Worked on an application as a game that detects and responds to bluetooth beacon tags.
+\item {\custombold{WorkCare (Concorde Health)}} - Health, mhealth based application
+\end{tightemize}
+\sectionsep
+
+
+\section{Academic Projects}
+\runsubsection{ Random Number Generation using Images }
+\descript{ | Capstone }
+\begin{tightemize}
+\item Developed an algorithm with project team to generate random number images using real-time images
+\item Prepared frontend for selecting range, random variate function and number of values to generate
+\item Integrated with HTML, java, BIRT and MATLAB
+\end{tightemize}
+
+
+\runsubsection{ Computer Graphics: Ping-pong game }
+\descript{| Academic }
+\begin{tightemize}
+\item Built graphic designs of objects, spaces, animation for 2 players
+\item Wrote in C++ allowing real time user input for movement and calculating scores accordingly
+\end{tightemize}
+
+\sectionsep
+
+% \runsubsection{Google}
+% \descript{| Software Engineering Intern }
+% \location{May 2013 – Aug 2013 | Mountain View, CA}
+% \begin{tightemize}
+% \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Research}
+% \runsubsection{Cornell Robot Learning Lab}
+% \descript{| Head Undergrad Research}
+% \location{Jan 2014 – Present | Ithaca, NY}
+% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+% \sectionsep
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2014	     & top 52/2500  & KPCB Engineering Fellow\\
+% 2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
+% 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+% 2013	     & National  & Jump Trading Challenge Finalist\\
+% 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+% 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% 2010     & National & Comp. Soc. of India's National Programming Contest\\
+% \end{tabular}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXTRA CURRICULAR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extra Curricular Activities}
+\runsubsection{Volunteering and Interests}
+\begin{tightemize}
+\item Coordinator at IEEE - ISAAC computer society (2012 - 2014).
+\item Interests: World cinema, trekking, reading
+\end{tightemize}
+
+\end{minipage} 
+\end{document}
