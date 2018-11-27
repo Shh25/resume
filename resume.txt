@@ -63,10 +63,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\namesection{}{Shefali Agarwal}{ %\urlstyle{same}\url{http://debarghyadas.com} \\
-\href{mailto:sdagarwa@ncsu.edu}{sdagarwa@ncsu.edu} | 919.345.3557
+\namesection{}{Shefali Agarwal}{ %\urlstyle{same}\url{http://shefaliagarwal.com} \\
+\href{mailto:sdagarwa@ncsu.edu}{sdagarwa@ncsu.edu} | 
+linkedIn:/\href{https://www.linkedin.com/in/shefali-agarwal}{shefali-agarwal} |
+919.345.3557
 }
-
+% \custombold{Software Engineer, interested in pursuing Software development in Machine Learning and Data Science}
+% \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN ONE
@@ -106,10 +109,10 @@
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-LinkedIn://  \href{https://www.linkedin.com/in/shefali-agarwal}{\custombold{shefali-agarwal}} \\
-% Github:// \href{https://github.com/shh25}{\custombold{Shh25}} \\
-\sectionsep
+% \section{Links} 
+% LinkedIn://  \href{https://www.linkedin.com/in/shefali-agarwal}{\custombold{shefali-agarwal}} \\
+% % Github:// \href{https://github.com/shh25}{\custombold{Shh25}} \\
+% \sectionsep
 
 
 
@@ -137,6 +140,7 @@ Syncano \textbullet{} FFMPEG \\
 \sectionsep
 \subsection{Tools:}
 JIRA \textbullet{} GitHub \textbullet{} Oracle VM VirtualBox \\
+Scikit Learn \textbullet{} Pandas \textbullet{} Matplotlib
 \sectionsep
 \subsection{Operating Systems:}
 Linux \textbullet{} MacOS \textbullet{} Android \\
@@ -144,6 +148,8 @@ Linux \textbullet{} MacOS \textbullet{} Android \\
 \subsection{Certifications:}
 MongoDB - MongoDB university \\
 UX design - Brainbench \\
+Machine Learning - Andrew Ng
+
 \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -186,8 +192,8 @@ Open Source Software Laboratory \\
 \location{ July 2015 – July 2018 | India }
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Full stack developer, worked on Server side, client side aspects of software using multiple technologies.
-\item Handled Data for Management, Analysis and presentation, API for web and mobile applications.
+\item \custombold{Full stack developer}, worked on Server side, Client side aspects of software using Cloud and other Services, Technologies and Agile Processes.
+\item \custombold{Data Analyst}, handled Data Analysis, Monitoring and Presentation, API for web and mobile applications.
 \end{tightemize}
 \sectionsep
 
@@ -196,40 +202,35 @@ Open Source Software Laboratory \\
 \runsubsection{ Mericom Solutions }
 \descript{| With client Mericom LLC }
 \begin{tightemize}
-\item mHealth, eHealth platform development using Java, Javascript, full stack, Angular 5, HTML and CSS
+\item mHealth, eHealth platform for combining EHRs acrosss platforms
+\item Development using MongoDB, Java, Javascript, full stack MEAN, Angular 5, HTML and CSS
 \item Built HIPAA compliant database and APIs.\end{tightemize}
 
 \runsubsection{ iGrenEnergi Web} 
 \descript{| With client IGrenEnergi Inc. }
 \begin{tightemize}
-\item Developed monitoring, analysis reports and dashboard for IoT powered solar panels
+\item Analysis and monitoring dashboard for IoT powered Igren device and solar panels using Bayes classification as a naive approach
+\item Predicted outcomes for solar device performance 
+\item Developed reports and graphs, real-time solar watch panel
 \item Using D3, Java, iText and AngularJS software
 \end{tightemize}
 
 \runsubsection{ 20 Day Stranger }
 \descript{| With clients P\&E and MIT Media Lab }
 \begin{tightemize}
-\item Analysed BaaS systems, used Syncano, created hyperlapse using google map APIs, wrote pairing algorithms
+\item Social application platform for connecting users
+\item Analysed BaaS systems - Syncano, created Hyperlapse - google map APIs
+\item Wrote pairing algorithm for users across the world
 \end{tightemize}
 
 
 \runsubsection{ DIYDoc Mobile Web Application }
 \descript{| With client P\&E }
 \begin{tightemize}
-\item Created REST APIs and dashboard using CRUD and MEAN 
+\item Created REST APIs, Dashboard panel using CRUD and MEAN 
 (MongoDB, Express, Angular, NodeJS) stack
 \item Video processing using FFMPEG Command Line and Gearman server
 \end{tightemize}
-
-\runsubsection{ Other Projects }
-\descript{ }
-\begin{tightemize}
-\item {\custombold{AVDesign labs web}} - Generated quotes based on prices and services as added on the diagrams created by a professional.
-\item {\custombold{TagPlus (TagHive)}} - Worked on an application as a game that detects and responds to bluetooth beacon tags.
-\item {\custombold{WorkCare (Concorde Health)}} - Health, mhealth based application
-\end{tightemize}
-\sectionsep
-
 
 \section{Academic Projects}
 \runsubsection{ Random Number Generation using Images }
@@ -241,11 +242,11 @@ Open Source Software Laboratory \\
 \end{tightemize}
 
 
-\runsubsection{ Computer Graphics: Ping-pong game }
+\runsubsection{ Data Analytics: multiple Projects }
 \descript{| Academic }
 \begin{tightemize}
-\item Built graphic designs of objects, spaces, animation for 2 players
-\item Wrote in C++ allowing real time user input for movement and calculating scores accordingly
+\item Conducted Data analysis using Python and supporting libraries
+\item Used methods and algorithms from Regression, Forecasting, clustering, classification
 \end{tightemize}
 
 \sectionsep
@@ -257,39 +258,6 @@ Open Source Software Laboratory \\
 % \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
 % \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Research}
-% \runsubsection{Cornell Robot Learning Lab}
-% \descript{| Head Undergrad Research}
-% \location{Jan 2014 – Present | Ithaca, NY}
-% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
-% \sectionsep
-
-% \runsubsection{Cornell Phonetics Lab}
-% \descript{| Head Undergraduate Researcher}
-% \location{Mar 2012 – May 2013 | Ithaca, NY}
-% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Awards} 
-% \begin{tabular}{rll}
-% 2014	     & top 52/2500  & KPCB Engineering Fellow\\
-% 2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
-% 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-% 2013	     & National  & Jump Trading Challenge Finalist\\
-% 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-% 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-% 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-% 2010     & National & Comp. Soc. of India's National Programming Contest\\
-% \end{tabular}
-% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXTRA CURRICULAR
